@@ -76,7 +76,7 @@ namespace LearnMyCalculatorApp.Tests
             var actual = calculator.Divide(1, 0);
 
             // Assert
-            Assert.AreEqual(null, actual);
+            Assert.IsNull(actual);
         }
 
         [TestMethod()]
